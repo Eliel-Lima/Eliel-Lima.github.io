@@ -1,0 +1,22 @@
+/* Assets */
+@import 'variables','mixins/breakpoint';
+
+
+/* Settings of project */
+@import 'reset','default';
+
+
+/* Layout */
+@import 
+    'layout/l-header',
+    'layout/l-main',
+    'layout/l-footer';
+
+
+/* Modules */
+@import 
+    'modules/c-header',
+    'modules/c-main__videoGroup',
+    'modules/c-main__textCenterGroup',
+    'modules/c-btn-primary',
+    'modules/c-main__buttonGroup';

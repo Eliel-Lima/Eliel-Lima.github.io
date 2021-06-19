@@ -1,0 +1,7 @@
+.l-header {
+    grid-area: l-header;
+
+    @include breakpoint($desktop-larger) {
+        margin-bottom: 5rem;
+    }
+}

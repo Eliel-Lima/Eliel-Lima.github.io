@@ -1,0 +1,7 @@
+@mixin breakpoint($option) {
+    @if $option == desktop-larger {
+        @media screen and (min-width: 1080px) {
+            @content;
+        }
+    }
+}

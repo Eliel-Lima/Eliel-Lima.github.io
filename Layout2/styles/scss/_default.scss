@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Red+Hat+Display:wght@400;700&display=swap');
+
+body {
+    margin-top: $global-margin / 3;
+    /* Mobile-first */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Desktop */
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+        ". l-header ."
+        ". l-main ."
+        ". l-footer .";
+
+    @include breakpoint($desktop-larger) {
+        display: grid;  
+        grid-template-areas: 
+        ". l-header ."
+        ". l-main ."
+        "l-footer l-footer l-footer";
+        margin-top: $global-margin / 7;
+    }
+}

@@ -1,0 +1,9 @@
+.l-main {
+    grid-area: l-main;
+    margin-top: $global-margin / 1.5;
+    max-width: 80%;
+
+    @include breakpoint($desktop-larger) {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,11 @@
+.l-main__textCenterGroup {
+    margin-bottom: $global-margin / 2;
+    
+    h2 {
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: $global-fontSize / 2;
+        font-weight: bolder;
+        color: $blue-primary;
+        text-align: center;
+    }
+}
